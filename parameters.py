@@ -1,0 +1,14 @@
+DEVICE_NAME      = "COM10"
+BAUDRATE         = 57600
+PROTOCOL_VERSION = 1.0
+
+MOTOR_1 = 1
+MOTOR_2 = 2
+
+ADDR_MX_TORQUE_ENABLE    = 24  # 1 byte
+ADDR_MX_GOAL_POSITION    = 30  # 2 bytes
+ADDR_MX_PRESENT_POSITION = 36  # 2 bytes
+ADDR_MX_MOVING_SPEED     = 32  # 2 bytes (Controls maximum velocity)
+
+TORQUE_ENABLE  = 1
+TORQUE_DISABLE = 0
